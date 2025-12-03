@@ -104,7 +104,7 @@ const TestimonialsSection = () => {
       
       <div className="relative z-10">
         {/* Header */}
-        <div className="text-center mb-12 px-4">
+        <div className="text-center mb-12 px-6 sm:px-8 lg:px-12">
           {/* Badge */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -171,7 +171,7 @@ const TestimonialsSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.3 }}
-          className="mt-16 flex flex-wrap justify-center gap-8 md:gap-12 lg:gap-20 px-4"
+          className="mt-16 flex flex-wrap justify-center gap-8 md:gap-12 lg:gap-20 px-6 sm:px-8 lg:px-12"
         >
           {[
             { value: '50+', label: 'Clients satisfaits' },

@@ -112,7 +112,7 @@ const CTASection = () => {
       <div className="absolute top-6 left-[10%] w-16 h-16 bg-white/5 rounded-full blur-2xl" />
       <div className="absolute bottom-6 right-[15%] w-20 h-20 bg-white/5 rounded-full blur-2xl" />
       
-      <div className="container mx-auto px-4 relative z-10">
+      <div className="container mx-auto px-6 sm:px-8 lg:px-12 relative z-10">
         <div className="max-w-3xl mx-auto text-center text-white">
         
           

@@ -149,7 +149,7 @@ const ServicesOverview = () => {
       {/* Grid pattern */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#e5e7eb_1px,transparent_1px),linear-gradient(to_bottom,#e5e7eb_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_50%,#000,transparent)]" />
 
-      <div className="container mx-auto px-4 relative z-10">
+      <div className="container mx-auto px-6 sm:px-8 lg:px-12 relative z-10">
         {/* Section Header */}
         <motion.div
           ref={titleRef}

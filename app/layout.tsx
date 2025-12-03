@@ -5,6 +5,7 @@ import Footer from "@/components/layout/Footer";
 import ScrollToTop from "@/components/ui/ScrollToTop";
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.optimacall.fr'), // Remplacez par votre vrai domaine
   title: "OptimaCall - Centre d'appels externalisé 24/7",
   description: "OptimaCall, votre partenaire de confiance pour l'externalisation de votre accueil téléphonique. Service professionnel disponible 24/7.",
   keywords: "call center, centre d'appels, accueil téléphonique, externalisation, service client, 24/7, OptimaCall",
