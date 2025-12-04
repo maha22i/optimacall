@@ -9,6 +9,11 @@ export const metadata: Metadata = {
   title: "OptimaCall - Centre d'appels externalisé 24/7",
   description: "OptimaCall, votre partenaire de confiance pour l'externalisation de votre accueil téléphonique. Service professionnel disponible 24/7.",
   keywords: "call center, centre d'appels, accueil téléphonique, externalisation, service client, 24/7, OptimaCall",
+  icons: {
+    icon: "/logo-optimacall.ico",
+    shortcut: "/logo-optimacall.ico",
+    apple: "/logo-optimacall.ico",
+  },
   openGraph: {
     title: "OptimaCall - Centre d'appels externalisé 24/7",
     description: "Votre partenaire de confiance pour l'externalisation de votre accueil téléphonique.",
